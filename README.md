@@ -6,3 +6,4 @@ In this repository solutions of problems from LeetCode will be published with ta
 There are solutions to tasks:
 - 2 Add Two Numbers
 - 9 Palindrome Number
+- 27 Remove Element
