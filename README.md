@@ -9,3 +9,4 @@ There are solutions to tasks:
 - 9 Palindrome Number
 - 27 Remove Element
 - 61 Rotate List
+- 400 Nth Digit
