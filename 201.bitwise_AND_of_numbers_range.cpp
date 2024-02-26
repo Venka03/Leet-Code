@@ -26,7 +26,7 @@ public:
         int result = 0, i=0;
         while (i<32 && left|right){
             if (right % 2 && !(left %2)){
-                result *= 0;
+                result = 0;
             }
             if (right % 2 && left % 2)
                 result += pow(2, i);
