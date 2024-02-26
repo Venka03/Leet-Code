@@ -15,19 +15,9 @@ public:
     static bool isSameTree(TreeNode* p, TreeNode* q) {
         if (!p && !q)
             return true;
-        if (!p && q || p && !q)
+        if (!p || !q)
             return false;
-        if (p->val != q->val)
-            return false;
-        if (!p->left && q->left || p->left && !q->left || !p->right && q->right || p->right && !q->right)
-            return false;
-        if (!(p->left || q->left || p->right || q->right)) // if all children are nullptr, nodes are equal
-            return true;
-        if (!(p->left || q->left))
-            return isSameTree(p->right, q->right);
-        if (!(p->right || q->right))
-            return isSameTree(p->left, q->left);
-        return p->left->val == q->left->val && p->right->val == q->right->val && isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
+        return p->val == q->val && isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
 int main(){
