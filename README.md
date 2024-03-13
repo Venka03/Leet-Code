@@ -12,3 +12,4 @@ There are solutions to tasks:
 - 100 Same Tree
 - 201 Bitwise AND of Numbers Range
 - 400 Nth Digit
+- 2485 Find the Pivot Integer
