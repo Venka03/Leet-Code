@@ -1,6 +1,6 @@
 /.vscode
 2.add_two_numbers
-9.palindrome_number.d*
+/9.palindrome_number.dSYM
 9.palindrome_number
 12.integer_to_roman
 13.r*
@@ -22,7 +22,7 @@
 201.bitwise_AND_of_numbers_range copy.cpp
 100.same_tree
 1.two_sum
-452*
+452.minimum_number_of_arrows_to_burst_balloons.py
 592*
 945*
 992*
