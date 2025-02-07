@@ -7,6 +7,7 @@ There are solutions to tasks:
 - 2 Add Two Numbers
 - 3 Longest Substring Without Repeating Characters
 - 9 Palindrome Number
+- 12 Integer to Roman
 - 27 Remove Element
 - 61 Rotate List
 - 100 Same Tree
