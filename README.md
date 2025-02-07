@@ -14,3 +14,4 @@ There are solutions to tasks:
 - 400 Nth Digit
 - 1669 Merge In Between Linked Lists
 - 2485 Find the Pivot Integer
+- 3160 Find the Number of Distinct Colors Among the Balls
